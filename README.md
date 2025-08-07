@@ -115,6 +115,7 @@ networks:
 
 ```bash
 docker-compose up -d
+docker-compose -f docker-compose-postgres.yml up -d
 
 ```
 
