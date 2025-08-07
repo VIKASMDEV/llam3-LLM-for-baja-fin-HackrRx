@@ -115,6 +115,7 @@ networks:
 
 ```bash
 docker-compose up -d
+
 ```
 
 You can check if the containers are running with `docker ps`.
