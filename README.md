@@ -1,4 +1,4 @@
-# Document Analysis RAG API
+# LLM Document Processing System
 
 This repository contains the source code for a Retrieval-Augmented Generation (RAG) API built for the HackRx competition. The application processes PDF documents from a URL, indexes their content, and answers user questions based on the information contained within the document.
 
