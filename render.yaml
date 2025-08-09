@@ -14,8 +14,9 @@ services:
         sync: false # Set this manually in the Render dashboard for security
 
   # 2. The PostgreSQL Database
-  - type: db # CORRECTED: The official type for a database is 'db'
-    name: hackrx-postgres-db
-    databaseName: vector_db
-    user: db_user
-    plan: free # Specifies the free tier for the database
+  - - type: postgres
+  name: hackrx-postgres-db
+  databaseName: vector_db
+  user: db_user
+  plan: free
+# Specifies the free tier for the database
