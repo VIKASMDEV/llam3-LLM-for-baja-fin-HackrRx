@@ -1,5 +1,4 @@
 services:
-  # 1. The Python Web Service (your FastAPI app)
   - type: web
     name: hackrx-api
     runtime: python
@@ -8,15 +7,13 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: hackrx-postgres-db # This MUST match the database service name below
+          name: hackrx-postgres-db
           property: connectionString
       - key: PINECONE_API_KEY
-        sync: false # Set this manually in the Render dashboard for security
+        sync: false
 
-  # 2. The PostgreSQL Database
-  - - type: postgres
-  name: hackrx-postgres-db
-  databaseName: vector_db
-  user: db_user
-  plan: free
-# Specifies the free tier for the database
+  - type: postgres
+    name: hackrx-postgres-db
+    databaseName: vector_db
+    user: db_user
+    plan: free
