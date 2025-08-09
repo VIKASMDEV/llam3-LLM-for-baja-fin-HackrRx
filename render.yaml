@@ -1,0 +1,22 @@
+# render.yaml
+services:
+  # The Python Web Service (your FastAPI app)
+  - type: web
+    name: hackrx-api
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL # This will be automatically set by Render
+        fromDatabase:
+          name: hackrx-postgres-db # Must match the database service name below
+          property: connectionString
+      - key: PINECONE_API_KEY
+        sync: false # Set this manually in the Render dashboard for security
+
+  # The PostgreSQL Database
+  - type: psql
+    name: hackrx-postgres-db
+    databaseName: vector_db
+    user: db_user
+    plan: free # Use the free tier for the database

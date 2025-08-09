@@ -5,9 +5,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a52e0880-32fe-4097-9825-e887feb551dd" name="Changes" comment="code files">
-      <change afterPath="$PROJECT_DIR$/TEST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_systemCV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagram_generator.py .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/render.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_documents/BAJHLIP23020V012223.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_documents/CHOTGDP23004V012223.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_documents/EDLHLGA23009V012223.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_documents/HDFHLIP23024V072223.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source_documents/ICIHLIP22012V012223.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/etcd/member/snap/db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/etcd/member/wal/0.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/etcd/member/wal/0000000000000000-0000000000000000.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/000011.sst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/000017.sst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/IDENTITY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOG.old.1754386269774088" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOG.old.1754386730953732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/OPTIONS-000021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/000009.sst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/000015.sst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/IDENTITY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOG.old.1754386269512287" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOG.old.1754386730761966" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/OPTIONS-000019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/a-bucket/.metadata.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/a-bucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/config/config.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/config/iam/format.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/format.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/pool.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/0/459883085650616331/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/0/459901955261225335/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/0/459901955261225343/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/1/459883085650616327/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/1/459901955261225339/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/1/459901955261225347/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/100/459883085650616338/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/100/459901955261225329/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/100/459901955261225344/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/101/459883085650616335/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/101/459901955261225330/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/101/459901955261225348/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/102/459883085650616333/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/102/459901955261225331/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/102/459901955261225345/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/103/459883085650616336/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/103/459901955261225336/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/103/459901955261225353/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/104/459883085650616328/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/104/459901955261225337/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/104/459901955261225354/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/105/459883085650616325/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/105/459901955261225332/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/105/459901955261225349/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/106/459883085650616326/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/106/459901955261225333/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/106/459901955261225351/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/107/459883085650616334/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/107/459901955261225338/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/107/459901955261225346/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/108/459883085650616332/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/108/459901955261225334/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/108/459901955261225341/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459883085650616329/320e3375-e820-44b1-80f2-25aacb5d6f75/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459883085650616329/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459901955261225327/ca2db44d-d41f-4f4a-bba2-8d93deca0793/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459901955261225327/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459901955261225342/b27e6ae8-e6c2-4b88-b056-4cdd8b903143/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/109/459901955261225342/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/110/459883085650616337/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/110/459901955261225328/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/110/459901955261225352/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459883085650616330/58a92f11-7767-4fc8-9506-883362065fd4/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459883085650616330/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459901955261225326/5e2a71f9-efd4-4199-a912-80c0dd805cbc/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459901955261225326/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459901955261225350/3030744e-8e42-4995-b353-8d662f53d59a/part.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/insert_log/459883085649413196/459883085649413197/459883085649613228/111/459901955261225350/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/stats_log/459883085649413196/459883085649413197/459883085649613228/110/459883085650616339/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/stats_log/459883085649413196/459883085649413197/459883085649613228/110/459901955261225340/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volumes/minio/a-bucket/files/stats_log/459883085649413196/459883085649413197/459883085649613228/110/459901955261225355/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_systemCV.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_systemCV.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +143,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.TEST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagram_generator.py .executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphviz.executor&quot;: &quot;Run&quot;,
     &quot;Python.ingest.executor&quot;: &quot;Run&quot;,
     &quot;Python.query_system.executor&quot;: &quot;Run&quot;,
     &quot;Python.query_systemCV.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -79,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query_systemCV.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\major\hackrxLLM\test code\query_systemCV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754316000080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code files">
+      <option name="closed" value="true" />
+      <created>1754461828706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754461828706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

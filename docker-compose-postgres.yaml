@@ -1,0 +1,18 @@
+# docker-compose-postgres.yml
+version: '3.8'
+
+services:
+  postgres_db:
+    image: pgvector/pgvector:pg16  # This image comes with pgvector pre-installed
+    container_name: postgres-with-vector
+    environment:
+      - POSTGRES_DB=vector_db
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"  # Exposes the PostgreSQL port to your local machine
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
