@@ -12,8 +12,8 @@ services:
       - key: PINECONE_API_KEY
         sync: false
 
-  - type: postgres
-    name: hackrx-postgres-db
+databases:
+  - name: hackrx-postgres-db
     databaseName: vector_db
     user: db_user
     plan: free
