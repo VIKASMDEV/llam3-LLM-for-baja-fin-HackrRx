@@ -1,1 +1,25 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+pydantic==1.10.12
+python-dotenv==1.0.0
+requests==2.31.0
+PyMuPDF==1.22.5
+psycopg2-binary==2.9.6
+
+# LangChain core
+langchain==0.0.278
+
+# Pinecone client
+pinecone-client==2.2.2
+
+# HuggingFace embeddings dependencies
+transformers==4.34.0
+sentence-transformers==2.2.2
+
+# Ollama (via LangChain Community) - this might require manual installation or from source,
+# but here is the package for langchain-community if on PyPI:
+langchain-community==0.0.22
+
+# Any other dependencies implicitly required by langchain-community:
+httpx==0.24.1
 
